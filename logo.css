@@ -1,0 +1,47 @@
+/* .insta{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    align-items:center;
+    
+
+}
+.snap{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    align-items:center;
+}
+.facebook{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    align-items:center;
+} */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+.cont{
+    width: 100%;
+    height:70vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+a img{
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+}

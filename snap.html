@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: rgb(187, 187, 197);
+
+        font-family: "Gill sans", "Gill sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      #id1 {
+        width: 350px;
+        height: 400px;
+        margin-top: 100px;
+        background-color: white;
+        text-align: center;
+        box-shadow: 0 0 20px black;
+        border-radius: 8px;
+      }
+      .img {
+        margin: center;
+        padding-top: 7%;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 0;
+      }
+      h3 {
+        text-align: center;
+        font-style: intial;
+      }
+      .c1 {
+        width: 280px;
+        height: 30px;
+        margin-left: 7px;
+        margin-top: 5px;
+        background-color: rgb(213, 211, 211);
+        border: none;
+        outline: 0px;
+        border-radius: 8px;
+      }
+
+      label {
+        position: absolute;
+        left: 640px;
+      }
+      .c2 {
+        padding-top: 20px;
+      }
+      .btn {
+        width: 100px;
+        height: 40px;
+        background-color: rgb(255, 255, 0);
+        border: none;
+        border-radius: 30px;
+        position: absolute;
+        top: 430px;
+        left: 720px;
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .btn:hover {
+        scale: 1.1;
+        cursor: pointer;
+      }
+
+      .c5 {
+        margin-left: 200px;
+      }
+      a {
+        color: rgb(46, 174, 225);
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+      }
+      .head {
+        margin-top: 2px;
+        margin-bottom: 0px;
+        font-weight: bolder;
+      }
+
+      .descrip {
+        margin-top: 3px;
+      }
+
+      .text {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      function login() {
+        window.open("otp.html");
+      }
+    </script>
+    <center>
+      <div id="id1">
+        <img src="snapchat-svgrepo-com.svg" class="img" />
+        <h1 class="head">Log in</h1>
+        <p class="descrip">To Snapchat</p>
+        <label>Username or Email</label><br />
+        <input type="email" class="c1" />
+        <div class="c2">
+          <label>Password</label><br /><input type="password" class="c1" />
+        </div>
+
+        <a href="#">Forgot Password?</a>
+
+        <a href="otp.html">
+          <button type="submit" class="btn">Log In</button>
+        </a>
+      </div>
+    </center>
+  </body>
+</html>
